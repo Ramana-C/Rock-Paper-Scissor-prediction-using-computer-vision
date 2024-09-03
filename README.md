@@ -55,10 +55,3 @@ The model should achieve a high accuracy in predicting the hand gestures. The re
 - Implement data augmentation techniques to enhance the robustness of the model.
 - Extend the project to recognize additional gestures or actions.
 
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
