@@ -10,8 +10,8 @@ The dataset used for training and testing the model is sourced from [Kaggle Rock
 
 The repository includes the following files:
 
-- **train_model.py**: Script to train the machine learning model using the provided dataset.
-- **test_model.py**: Script to test the trained model on unseen data to evaluate its performance.
+- **train_model.ipynb**: Jupyter notebook to train the machine learning model using the provided dataset.
+- **test_model.ipynb**: Jupyter notebook to test the trained model on unseen data to evaluate its performance.
 - **README.md**: This file, providing an overview of the project and instructions for use.
 
 ## Installation and Setup
@@ -39,23 +39,15 @@ To get started with this project, follow these steps:
 
 ## Training the Model
 
-To train the model, run the following command:
-```bash
-python train_model.py
-```
-This script will load the dataset, preprocess the images, and train a convolutional neural network (CNN) to classify the hand gestures.
+To train the model, open the `train_model.ipynb` notebook in Jupyter and run all cells. This notebook will load the dataset, preprocess the images, and train a convolutional neural network (CNN) to classify the hand gestures.
 
 ## Testing the Model
 
-After training, you can test the model's performance by running:
-```bash
-python test_model.py
-```
-This script will load the trained model and evaluate it on the test dataset to provide metrics such as accuracy and loss.
+After training, you can test the model's performance by opening the `test_model.ipynb` notebook in Jupyter and running all cells. This notebook will load the trained model and evaluate it on the test dataset to provide metrics such as accuracy and loss.
 
 ## Results
 
-The model should achieve a high accuracy in predicting the hand gestures. The results of the model will be displayed after running the test script.
+The model should achieve a high accuracy in predicting the hand gestures. The results of the model will be displayed after running the test notebook.
 
 ## Future Work
 
@@ -63,4 +55,10 @@ The model should achieve a high accuracy in predicting the hand gestures. The re
 - Implement data augmentation techniques to enhance the robustness of the model.
 - Extend the project to recognize additional gestures or actions.
 
+## Contributing
 
+If you'd like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
