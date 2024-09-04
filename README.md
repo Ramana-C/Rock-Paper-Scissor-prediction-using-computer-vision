@@ -20,8 +20,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/rock-paper-scissors-ml.git
-   cd rock-paper-scissors-ml
+   git clone https://github.com/Ramana-C/Rock-Paper-Scissor-prediction-using-computer-vision.git
+   cd Rock-Paper-Scissor-prediction-using-computer-vision
    ```
 
 2. **Install dependencies**:
