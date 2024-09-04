@@ -42,11 +42,9 @@ To get started with this project, follow these steps:
 To train the model, open the `train_model.ipynb` notebook in Jupyter and run all cells. This notebook will load the dataset, preprocess the images, and train a convolutional neural network (CNN) to classify the hand gestures.
 
 ## Testing the Model
-
-After training, you can test the model's performance by opening the `test_model.ipynb` notebook in Jupyter and running all cells. This notebook will load the trained model and evaluate it on the test dataset to provide metrics such as accuracy and loss.
+After training, you can test the model's performance by opening the test_model.ipynb notebook in Jupyter and running all cells. This notebook uses OpenCV to capture live images through your webcam or load images for testing. The model will predict the hand gesture shown in the image and display the results.
 
 ## Results
-
 The model should achieve a high accuracy in predicting the hand gestures. The results of the model will be displayed after running the test notebook.
 
 ## Future Work
